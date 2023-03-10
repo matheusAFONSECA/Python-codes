@@ -5,8 +5,8 @@ with open("C:\\Users\\mathe\\Downloads\\nomes_dos_arquivos - Copia.txt", 'r') as
     conteudo = f.read()
 
 # Remover sequência de string desejada
-sequencia = "'"
-novo_conteudo = conteudo.replace(sequencia, '')
+sequencia = ".jpg"
+novo_conteudo = conteudo.replace(sequencia, '.txt')
 
 # Escrever novo conteúdo no mesmo arquivo
 with open("C:\\Users\\mathe\\Downloads\\nomes_dos_arquivos - Copia.txt", 'w') as f:
