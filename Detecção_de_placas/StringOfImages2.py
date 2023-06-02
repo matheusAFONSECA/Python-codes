@@ -4,7 +4,7 @@ import pytesseract
 from PIL import Image
 
 # pasta com imagens
-image_folder = "teste"
+image_folder = "C:\\Users\\mathe\\Downloads\\teste"
 
 # pasta para salvar as placas recortadas
 output_folder = os.path.join(os.path.expanduser("~"), "Downloads", "placas")
@@ -14,7 +14,7 @@ os.makedirs(output_folder, exist_ok=True)
 output_file = os.path.join(os.path.expanduser("~"), "Downloads", "strings_placas.txt")
 
 # caminho para o arquivo de treinamento com os labels
-labels_path = "labels/"
+labels_path = "C:\\Users\\mathe\\Downloads\\labels"
 
 # carrega o arquivo com os nomes das classes
 class_names = []
@@ -34,10 +34,10 @@ for txt_file in os.listdir(labels_path):
             line_info = line.strip().split()
 
             # a primeira coluna é o nome da classe
-            class_idx = int(line_info[0])
+            class_idx = float(line_info[0])
 
             # as colunas 2 a 5 são as coordenadas da caixa delimitadora
-            x1, y1, x2, y2 = [int(coord) for coord in line_info[1:]]
+            x1, y1, x2, y2 = [float(coord) for coord in line_info[1:]]
 
             # carrega a imagem correspondente
             img_file = os.path.join(image_folder, txt_file.replace(".txt", ".jpg"))
