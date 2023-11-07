@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="600d7ccd-e02a-4896-b521-c4cf2c6332ca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Python-codes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python-codes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pythonProject/TirarStringsTXT.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonProject/TirarStringsTXT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonProject/QRcode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +35,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Downloads/GitHub/Python-codes"
+    "last_opened_file_path": "D:/Downloads/GitHub/Python-codes/pythonProject"
   }
 }]]></component>
   <component name="RunManager">
